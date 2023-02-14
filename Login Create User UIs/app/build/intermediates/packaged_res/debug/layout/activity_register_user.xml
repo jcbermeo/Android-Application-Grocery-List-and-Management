@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".RegisterUser">
+
+    <TextView
+        android:id="@+id/registerBanner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="108dp"
+        android:background="@color/black"
+        android:fontFamily="sans-serif-black"
+        android:text="Create Account"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/goBackText"
+        android:layout_width="290dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="468dp"
+        android:gravity="center"
+        android:text="Go Back"
+        android:textColor="@color/white"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/registerBanner" />
+
+    <EditText
+        android:id="@+id/fullNameEditText"
+        android:layout_width="290dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="40dp"
+        android:background="@color/white"
+        android:hint=" Full Name"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/registerBanner" />
+
+    <EditText
+        android:id="@+id/userNameEditText"
+        android:layout_width="290dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="32dp"
+        android:background="@color/white"
+        android:hint=" User Name"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/fullNameEditText" />
+
+    <EditText
+        android:id="@+id/emailAddressEditText"
+        android:layout_width="290dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="32dp"
+        android:background="@color/white"
+        android:hint=" e-Mail "
+        android:inputType="textEmailAddress"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/userNameEditText" />
+
+    <EditText
+        android:id="@+id/passwordAccountCreateEditText"
+        android:layout_width="290dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="32dp"
+        android:background="@color/white"
+        android:hint=" Password"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/emailAddressEditText" />
+
+    <Button
+        android:id="@+id/registerButton"
+        android:layout_width="290dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="44dp"
+        android:text="Register"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/passwordAccountCreateEditText" />
+
+    <ProgressBar
+        android:id="@+id/progressBarAccountCreation"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:foregroundGravity="center"
+        android:visibility="invisible"
+        tools:layout_editor_absoluteX="155dp"
+        tools:layout_editor_absoluteY="315dp"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
