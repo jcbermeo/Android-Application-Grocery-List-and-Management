@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "414927297342",
+    "project_id": "authenticationproject-ba514",
+    "storage_bucket": "authenticationproject-ba514.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:414927297342:android:fe386fa2dae2d1553baa6f",
+        "android_client_info": {
+          "package_name": "edu.qc.seclass.glm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "414927297342-v9dgdvp8th2hk43ara4d0d1oorleoijv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1jUNxnLmhchpEp-pDBHcrSYq4BOjmvVc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "414927297342-v9dgdvp8th2hk43ara4d0d1oorleoijv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
